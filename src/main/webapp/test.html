@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Spring Web Pirkiniai</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+    <div align="center">
+        <button onclick="getAll();">GetAll</button>
+        <button onclick="getOne();">Get</button>
+        <button onclick="deleteOne();">Delete</button>
+
+        <hr>
+
+        <table border="1" cellpadding="5">
+            <tr>
+                <div align="center">
+                <h3>Čekis</h3>
+                </div>
+            </tr>
+
+            <tr>
+                <th>id:</th>
+                <td><input id="cekisId" type="number"></td>
+            </tr>
+            <tr>
+                <th>data:</th>
+                <td><input id="data" type="date"></td>
+            </tr>
+            <tr>
+                <th>parduotuve:</th>
+                <td><input id="parduotuve" type="text"></td>
+            </tr>
+            <tr>
+                <th>aprasymas:</th>
+                <td><input id="aprasymas" type="text"></td>
+            </tr>
+            <tr>
+                <td><button onclick="update();">Update</button></td>
+                <td><button onclick="insert();">Insert</button></td>
+            </tr>
+        </table><br>
+        <hr>
+        <button onclick="getAllPrekes();">GetAllPrekes</button>
+        <button onclick="getOnePreke();">GetOnePreke</button>
+        <button onclick="deleteOnePreke();">DeletePreke</button>
+        <hr>
+        <table border="1" cellpadding="5">
+
+            <tr>
+                <div align="center">
+                    <h3>Prekė</h3>
+                </div>
+            </tr>
+            <tr>
+                <th>preke id:</th>
+                <td><input id="prekeId" type="number"></td>
+            </tr>
+            <tr>
+                <th>preke:</th>
+                <td><input id="preke" type="text"></td>
+            </tr>
+            <tr>
+                <th>kiekis:</th>
+                <td><input id="kiekis" type="text"></td>
+            </tr>
+            <tr>
+                <th>kaina:</th>
+                <td><input id="kaina" type="text"></td>
+            </tr>
+            <tr>
+                <th>tipo id:</th>
+                <td><input id="tipasId" type="number"></td>
+            </tr>
+            <tr>
+                <th>tipo pav.:</th>
+                <td><input id="pavadinimas" type="text"></td>
+            </tr>
+            <tr>
+                <td><button onclick="updatePreke();">UpdatePreke</button></td>
+                <td><button onclick="insertPreke();">InsertPreke</button></td>
+            </tr>
+
+        </table>
+    </div>
+    <div id="app" align="center">
+    </div>
+    </body>
+</html>
