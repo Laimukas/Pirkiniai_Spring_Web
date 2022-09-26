@@ -4,4 +4,4 @@ Vienas paskutinių projektėlių mokinantis Java subtilybių. Naudota Java, Spri
 
 #java #maven #spring mysql #web
 
-Projekto veikima galite perziureti cia: https://youtu.be/yq8L_lbfLzk
+Projekto veikimą galite peržiūrėti čia: https://youtu.be/yq8L_lbfLzk
