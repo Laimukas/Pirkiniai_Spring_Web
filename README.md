@@ -3,3 +3,5 @@
 Vienas paskutinių projektėlių mokinantis Java subtilybių. Naudota Java, Spring, Maven, MySQL. CRUD funkcionalumas.
 
 #java #maven #spring mysql #web
+
+Projekto veikima galite perziureti cia: https://youtu.be/yq8L_lbfLzk
